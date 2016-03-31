@@ -3,8 +3,9 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class NewBehaviourScript : MonoBehaviour
+public class ImageEffectUseMRTBuffer : MonoBehaviour
 {
+  public Material defaultMat;
   public Material imgEffMat;
   public RenderTexture camTarget;
   public RenderTexture buf1;
